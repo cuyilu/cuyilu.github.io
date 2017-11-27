@@ -117,8 +117,6 @@
 
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="忆路兴星的博客" type="application/atom+xml" />
 
@@ -210,13 +208,16 @@
     (function(){
       if(''){
         if(window.prompt('请输入密码') !== ''){
-          window.alert('抱歉，密码错误！');
+          window.alert('密码错误！');
+          window.opener=null;
           history.back();
         }
 
       }
     })();
 </script>
+
+
 
 <div class="site-brand-wrapper">
   <div class="site-meta ">

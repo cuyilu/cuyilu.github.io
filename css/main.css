@@ -188,8 +188,8 @@ body {
   font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #555;
-  background: #fff;
+  color: #fff;
+  background: #000;
 }
 @media (max-width: 767px) {
   body {
@@ -277,15 +277,15 @@ p {
   margin: 0 0 20px 0;
 }
 a {
-  color: #555;
+  color: #ccc;
   text-decoration: none;
   outline: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
 }
 a:hover {
-  color: #222;
-  border-bottom-color: #222;
+  color: #fff;
+  border-bottom-color: #fff;
 }
 blockquote {
   margin: 0;
@@ -921,7 +921,7 @@ pre .javascript .function {
 }
 .post-body .tabs ul.nav-tabs li.tab.active a {
   cursor: default;
-  color: #555;
+  color: #ccc;
 }
 .post-body .tabs .tab-content {
   background-color: #fff;
@@ -939,7 +939,7 @@ pre .javascript .function {
 .btn {
   display: inline-block;
   padding: 0 20px;
-  font-size: 14px;
+  font-size: 10px;
   color: #fff;
   background: #222;
   border: 2px solid #222;
@@ -967,7 +967,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #555;
+  background: #fff;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -1136,7 +1136,7 @@ pre .javascript .function {
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: #999;
+  color: #ccc;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1210,7 +1210,7 @@ pre .javascript .function {
   transition-delay: 0s;
 }
 .menu .menu-item a:hover {
-  border-bottom-color: #222;
+  border-bottom-color: #666;
 }
 .menu .menu-item .fa {
   margin-right: 5px;
@@ -1577,11 +1577,11 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #555;
+  color: #ccc;
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #222;
+  color: #fff;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1942,7 +1942,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f649e2;
+  background: #3b3b6f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2778,4 +2778,7 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background: url("/images/BackGround.jpg");
 }
